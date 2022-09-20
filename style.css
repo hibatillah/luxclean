@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --color-white: #FBFBFB;
+    --color-dark: #02041B;
+    --color-primary: #2A61FA;
+    --color-secondary: #0D2450;
+    --color-tertiary: #658CF7;
+    --text-secondary-black: #02041B70;
+    --text-secondary-white: #FBFBFB80;
+}
+
+.bg-1{background: var(--color-dark);}
+.bg-2{background: var(--color-primary);}
+.bg-3{background: var(--color-secondary);}
+.bg-4{background: var(--color-tertiary);}
+.cl-1{color: var(--color-dark);}
+.cl-2{color: var(--color-primary);}
+.cl-3{color: var(--color-secondary);}
+.cl-4{color: var(--color-tertiary);}
+.cl-5{color: var(--text-secondary-black);}
+.cl-6{color: var(--text-secondary-white);}
+
+:is(
+    li.nav-item a.nav-link#menu,
+    a#medsos-icon i,
+    a#contact span
+    ):hover{
+    color: var(--color-primary);
+}
+
+#brand{font-family: 'Montserrat Alternates', sans-serif; }
+
+a#menu{text-decoration: none;}
+
+.fw-600{font-weight: 600;}
+
+#reviews{background: #e8e8e8;}
+
+#customer-profile{
+    width: 150px;
+    height: 150px;
+}
+
+.card-h{
+    width: 330px;
+    height: 150px;
+}
+
+.profile-card{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.cover{
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+}
+
+img#reviews{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+a#contact{
+    text-decoration: none;
+}
